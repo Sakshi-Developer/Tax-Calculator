@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backbox" style="margin-top: -30px;"> 
+        <div class="container">.
+            <div class="container">
+                <h2>Tax Calculator</h2>
+                <label for="grossIncome">Gross annual income:</label>
+                <input type="number" id="grossIncome" min="0" step="1"><br>
+        
+                <label for="extraIncome">Extra income:</label>
+                <input type="number" id="extraIncome" min="0" step="1"><br>
+        
+                <label for="ageGroup">Age group:</label>
+                <select id="ageGroup">
+                    <option value="under60">Under 60</option>
+                    <option value="60to80">60 to 80</option>
+                    <option value="above80">Above 80</option>
+                </select><br><br>
+        
+                <label for="deductions">Total deductions:</label>
+                <input type="number" id="deductions" min="0" step="1"><br>
+        
+                <button onclick="calculateTax()">Calculate Tax</button>
+                <p id="taxAmount"></p>
+            </div>
+        
+            
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
+

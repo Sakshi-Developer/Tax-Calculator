@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* .box{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin-left: 100px;
+    border: 2px solid black;
+    box-shadow: 5px 5px gray;
+    position: absolute;
+    top: 3%;
+    
+} */
+/* .container{
+    
+    margin-top: 150px !important;
+} */
+.structure input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#fname{
+    width: 400px !important;
+    height: 40px !important;
+    margin-left: 50px !important;
+    margin-top: 10px !important;
+}
+h3{
+    text-align: center;
+    text-decoration: underline 2px solid black;
+    font-size: 40px;
+}
+#headone{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#headtwo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#headthree{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#headfour{
+    font-weight: bolder;
+    font-size: 20px;
+}
+form{
+    margin-top: 25px;
+}
+
+.backbox{ 
+    background-color: whitesmoke;
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    top: 250px !important;
+    background-color: white;
+    
+   
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
